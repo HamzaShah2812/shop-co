@@ -203,9 +203,28 @@ header{
 
 .new-arrivals{
     display: flex;
-    flex-direction: row;
-    padding: 15vmax 7vmax;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vmax 7vmax;
     justify-content: space-evenly;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 3vmax;
+}
+
+.products{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5vmax;
+        padding: 3vmax 3vmax 2vmax 3vmax;
 }
 
 .new-arrivals .product1{
@@ -230,4 +249,17 @@ header{
     display: flex;
     flex-direction: column;
     gap: 0.7vmax;
+}
+
+.new-arrivals .view-all{
+    border: solid;
+    border-color: grey;
+    border-radius: 5vmax;
+    background-color: white;
+    width: 10vmax;
+    height: 3vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
