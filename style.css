@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    width: 100vmax;
+}
+
 
 .announcement-bar{
     display: flex;
@@ -120,15 +124,14 @@ header{
     justify-content: space-around;
     background-color: #F2F0F1;
     height: 35vmax;
-    padding: 2vmax 5vmax;
 }
 
 
 .text{
     display: flex;
     flex-direction: column;
-    gap: 2vmax;
-    padding: 2vmax;
+    gap: 3vmax;
+    padding: 4vmax 7vmax;
 
 }
 
@@ -148,6 +151,12 @@ header{
     font-family: satoshi;
     font-size: 3.5vmax;
     font-weight: 500;
+}
+
+.counters p{
+    font-family: satoshi;
+    font-size: 1vmax;
+    font-weight: 200;
 }
 
 .counters hr{
@@ -172,7 +181,53 @@ header{
 
 .hero-image img{
    width: 40vmax;
-   height: 35vmax;
+   padding-bottom: 0;
+   margin-bottom: -4px;
 }
 
+.brands{
+    background-color: black;
+    height: 5vmax;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10vmax;
+    align-items: center;
+    padding-left: 7vmax;
+    padding-right: 7vmax;
+}
 
+.brands img{
+    height: 1.8vmax;
+}
+
+.new-arrivals{
+    display: flex;
+    flex-direction: row;
+    padding: 15vmax 7vmax;
+    justify-content: space-evenly;
+}
+
+.new-arrivals .product1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vmax;
+}
+
+.product2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vmax;
+}
+
+.product3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vmax;
+}
+
+.product4{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vmax;
+}
