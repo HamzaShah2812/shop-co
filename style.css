@@ -39,7 +39,7 @@
 nav{
     display: flex;
     align-items: center;
-    padding: 2vmax 5vmax;
+    padding: 1.5vmax 5vmax;
     gap: 3vmax;
     justify-content: space-evenly;
 }
@@ -51,7 +51,7 @@ nav{
 .menu{
     display: flex;
     flex-direction: row;
-    gap: 1vmax;
+    gap: 1.2vmax;
 }
 
 .menu a{
@@ -82,7 +82,9 @@ nav{
 }
 
 .search-bar input{
+    border: none;
     background-color: #F0F0F0;
+    font-size: 0.8vmax;
     height: 2vmax;
 }
 
@@ -94,10 +96,13 @@ nav{
 .search-bar input{
     border: none;
     background-color: #F0F0F0;
+    font-size: 0.8vmax;
+    height: 2vmax;
 }
 
 .search-bar i{
     background-color: #F0F0F0;
+    color: #8e8e8e;
 }
 
 .nav-icons{
@@ -106,6 +111,68 @@ nav{
     gap: 1vmax;
     font-size: 1vmax;
     cursor: pointer;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2F0F1;
+    height: 35vmax;
+    padding: 2vmax 5vmax;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax;
+    padding: 2vmax;
+
+}
+
+.text h1{
+    font-family: Integral CF;
+    font-size: 3.5vmax;
+    font-weight: 700;
+}
+.counters{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    gap: 2.5vmax;
+}
+
+.counters h1{
+    font-family: satoshi;
+    font-size: 3.5vmax;
+    font-weight: 500;
+}
+
+.counters hr{
+    height: 5vmax;
+    color: rgb(162, 162, 162);
+}
+
+.shop-now{
+    border: none;
+    border-radius: 1.5vmax;
+    background-color: black;
+    color: white;
+    height: 3vmax;
+    width: 10vmax;
+    font-size: 0.9vmax;
+}
+
+.hero-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image img{
+   width: 40vmax;
+   height: 35vmax;
 }
 
 
