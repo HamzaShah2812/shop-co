@@ -274,16 +274,31 @@ header{
     margin-right: 7vmax;
 }
 
-.dress-type{
+.types{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #F0F0F0;
     justify-content: center;
     align-items: center;
     gap: 2vmax;
-    margin: 4vmax 12vmax;
-    height: 40vmax;
+    margin: 5vmax 7vmax;
+    height: 60vmax;
     border-radius: 2vmax;
+}
+
+.dress-heading{
+    font-family: Integral CF;
+    font-size: 3vmax;
+    font-weight: 700;
+}
+
+.dress-type{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+    margin-top: 4vmax;
 }
 
