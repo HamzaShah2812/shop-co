@@ -206,7 +206,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4vmax 7vmax;
+    margin: 4vmax 7vmax;
     justify-content: space-evenly;
 }
 .heading{
@@ -221,10 +221,10 @@ header{
 .products{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 5vmax;
-        padding: 3vmax 3vmax 2vmax 3vmax;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 3vmax;
+        padding: 3vmax 0 3vmax 0;
 }
 
 .new-arrivals .product1{
@@ -272,4 +272,105 @@ header{
     align-items: center;
     margin-left: 7vmax;
     margin-right: 7vmax;
+    color: grey;
+}
+
+.style-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin: 2vmax 7vmax;
+    border-radius: 2vmax;
+    height: 45vmax;
+}
+
+.style-section  .heading {
+    display: flex;
+    flex-direction: row;
+    font-family: Integral CF;
+    font-size: 2vmax;
+    font-weight: 700;
+    margin: 3vmax;
+}
+
+.style-section .one-style-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vmax;
+}
+
+
+.style-section .two-style-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vmax;
+    margin-top: 1.5vmax;
+}
+
+.style-section img{
+    height: 15vmax;
+    border-radius: 1.5vmax;
+}
+
+.products img{
+    height: 15vmax;
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    margin: 3vmax 7vmax;
+}
+
+.happy-customers{
+    display: flex;
+    flex-direction: row;
+    gap: 40vmax;
+}
+
+.fifth-section p{
+    color: black;
+    font-size: 2.5vmax;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    gap: 3vmax;
+}
+
+.card-one{
+    width: 25vmax;
+    height: 15vmax;
+    border: solid;
+    border-width: 0.1vmax;
+    border-radius: 1.5vmax;
+    margin-top: 4vmax;
+    border-color: black;
+}
+
+.card-one .name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3vmax;
+    padding-top: 2vmax;
+    padding-left: 1vmax;
+}
+
+.card-one .name p{
+   font-size: 1vmax;
+}
+
+.card-one .text{
+    font-size: 1vmax;
+    padding: 0vmax
+}
+
+.card-one .text p{
+    font-size: 1vmax;
+    padding: 1vmax 1vmax;
 }
