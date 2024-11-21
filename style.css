@@ -328,7 +328,7 @@ header{
 .happy-customers{
     display: flex;
     flex-direction: row;
-    gap: 40vmax;
+    gap: 42vmax;
 }
 
 .fifth-section p{
@@ -343,13 +343,13 @@ header{
 }
 
 .card-one{
-    width: 25vmax;
+    width: 28vmax;
     height: 15vmax;
     border: solid;
     border-width: 0.1vmax;
     border-radius: 1.5vmax;
     margin-top: 4vmax;
-    border-color: black;
+    border-color: rgb(180, 180, 180);
 }
 
 .card-one .name{
@@ -357,7 +357,9 @@ header{
     flex-direction: row;
     align-items: center;
     gap: 0.3vmax;
-    padding-top: 2vmax;
+    font-size: 1.2vmax;
+    font-weight: 600;
+    padding-top: 0.5vmax;
     padding-left: 1vmax;
 }
 
@@ -373,4 +375,104 @@ header{
 .card-one .text p{
     font-size: 1vmax;
     padding: 1vmax 1vmax;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1vmax;
+    gap:0.2vmax;
+}
+.rating p{
+    padding-top: 1.5vmax;
+    font-size: 1.3vmax;
+    color: #FFC633;
+}
+
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 8vmax 7vmax;
+    padding: 1vmax 2vmax;
+    height: 10vmax;
+    border-radius: 2vmax;
+    gap: 5vmax;
+    z-index: 2;
+}
+.subscribe .text{
+    font-family: Integral CF;
+    font-size: 2.5vmax;
+    font-weight: 700;
+    padding: 0;
+    width: 33vmax;
+}
+
+.subscribe .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Integral CF;
+    font-size: 2.5vmax;
+    font-weight: 700;
+    padding-left: 10vmax;
+    padding-right: 0;
+    width: 33vmax;
+    gap:1vmax;
+}
+
+.subscribe .email .input{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    padding-left: 1vmax;
+    gap: 1vmax;
+    border: none;
+    color: black;
+    border-radius: 5vmax;
+    height: 3vmax;
+    width: 20vmax;
+}
+
+.subscribe .email .input input{
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 8vmax;
+    height: 3vmax;
+}
+
+
+.subscribe .email .button button{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+    border: none;
+    color: black;
+    border-radius: 5vmax;
+    height: 3vmax;
+    width: 21vmax;
+    cursor: pointer;
+}   
+
+
+footer{
+    position: relative;
+    background-color: #F0F0F0;
+    height: 20vmax;
+    margin-top: -13.5vmax;
+    padding-top: 17vmax;
+    z-index: -1;
+}
+
+html body{
+    width: 100vmax;
 }
