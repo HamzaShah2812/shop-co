@@ -443,8 +443,9 @@ header{
     display: flex;
     align-items: center;
     border: none;
-    width: 8vmax;
+    width: 12vmax;
     height: 3vmax;
+    font-size: 0.85vmax;
 }
 
 
@@ -460,19 +461,133 @@ header{
     border-radius: 5vmax;
     height: 3vmax;
     width: 21vmax;
+    font-size: 0.85vmax;
+    font-weight: 500;
     cursor: pointer;
 }   
 
 
 footer{
+    font-family: satoshi;
     position: relative;
     background-color: #F0F0F0;
     height: 20vmax;
     margin-top: -13.5vmax;
-    padding-top: 17vmax;
+    padding-top: 10vmax;
+    padding-left: 7vmax;
+    padding-right: 7vmax;
     z-index: -1;
+    display: flex;
+    flex-direction: column;
+    gap: 10vmax;
+    
 }
 
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 10vmax;
+}
+
+.footer-options{
+    display: flex;
+    flex-direction: row;
+    gap: 11.5vmax;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vmax;
+}
+
+.Help {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vmax;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vmax;
+}
+
+.Resources{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vmax;
+}
+
+.company a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.Help a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.FAQ a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.Resources a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 html body{
     width: 100vmax;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    margin-top: 1.2vmax;
+}
+
+.social-icons .social{
+    width: 1.4vmax;
+    height: 1.4vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 2vmax;
+    border: solid;
+    border-color: black;
+    border-width: 0.02vmax;
+}
+
+.social-icons .social-facebook{
+    width: 1.5vmax;
+    height: 1.5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 2vmax;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 60vmax;
+    margin-top: -9.5vmax;
+}
+
+.payment-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4vmax;
+    gap: 0.7vmax;
 }
